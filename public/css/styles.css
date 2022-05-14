@@ -313,23 +313,14 @@ section.copy {
         justify-content: center;
     }
 
-
-
-
-
     .description {
         display: none;
     }
+
     div.copyright{
     text-align: center;
     }
-    .footer{
-        
-        display: flex;
-        align-content: center;
-        flex-wrap: nowrap;
-        width: 100%;
-        flex-flow: row;
+  
 }
 
 @media (min-width: 769px) {
@@ -373,7 +364,6 @@ section.copy {
     }
 
     .footer{
-        git add content: '\undefined';
         display: flex;
         align-content: center;
         flex-wrap: nowrap;
@@ -381,7 +371,7 @@ section.copy {
         flex-flow: row;
     }
 
-}
+
     footer div section.copyright-message {
         background-color: blue;
         margin-left: 10px;
@@ -397,5 +387,4 @@ section.copy {
     section.copy {
         width: 100%;
     }
-
 }
