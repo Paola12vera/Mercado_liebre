@@ -1,0 +1,390 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 12px;
+}
+
+div.top-header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+
+header div.top-header p {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+header {
+    background-color: #EAC926;
+}
+
+
+header div.logo,
+header .form {
+    width: 50%;
+}
+
+header div.logo {
+    padding: 10px;
+}
+
+header .form {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size: 11px;
+}
+
+header nav {
+    font-size: 12px;
+    margin-left: 20px;
+    display: none;
+    justify-content: space-around;
+}
+
+header ul li {
+    list-style-type: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #000;
+}
+.form-search-bar {
+    background-color: #FFF;
+    border: 1px solid #ebebeb;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    width: 30%;
+
+}
+.nameField input{
+    width: 90%;
+    border:none;
+    padding: 5px;
+}
+
+div.burger-menu {
+    text-align: center;
+}
+
+div.burger-menu i {
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+div.last-visit,
+div.offers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price {
+    font-size: 18px;
+    width: 30%;
+}
+
+.discount {
+    width: 70%;
+    padding-left: 10 px;
+}
+
+.discount,
+.description {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.description {
+    color: #666;
+}
+
+.description {
+    display: none;
+    margin-top: 20px;
+}
+
+section.banner img {
+    width: 100%;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section article {
+    background-color: #fff;
+    margin: 10px 0px;
+}
+
+main section article img {
+    width: 100%;
+}
+
+main section article i,
+.discount {
+    color: #39b54a;
+}
+
+main section article i {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+main section h3 {
+    margin: 20px 0px;
+}
+
+article div.main-article {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+}
+
+footer {
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer section {
+    text-align: center;
+    margin: 50px;
+    overflow: visible;
+
+}
+
+footer h3 {
+    white-space: nowrap;
+    padding-bottom: 5px;
+
+}
+
+
+
+.footer-i {
+    font-size: 2em;
+    color: #1259c3;
+    margin-bottom: 10px;
+    margin: 50px;
+}
+
+section.copy {
+    text-align: left;
+    margin-left: 10px;
+    align-self: center;
+    width: 100%;
+}
+
+    /*register*/
+    main.register {
+        padding: 20px;
+    }
+
+    .botones {
+        padding: 8px;
+        align-items: center;
+    }
+    
+
+    #botonenviar{
+        padding: 8px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #0044AA;
+        color: white;
+       align-items: center;
+        border-color: #ebebeb;
+    }
+
+
+@media (min-width: 360px) {
+
+
+    main section article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+        
+    main section article .description{
+        opacity: 0
+    }
+    main section article:hover .description{
+        opacity: 1;
+        transition: all 300ms;
+    }
+    main section div.products {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    main section div.products article {
+        width: 45%;
+    }
+
+    .price,
+    .discount {
+        width: 50%;
+    }
+
+    .nav-bar {
+        justify-content: space-between;
+        padding: 10px;
+        margin-right: 10px;
+    }
+
+    header ul li {
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    header nav {
+        font-size: 12px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header div .logo {
+
+        display: inline-flex;
+        width: 35%;
+    }
+
+    .header div.top-header p {
+
+        width: 35%;
+        padding: 10px;
+    }
+
+
+
+    div.top-header {
+        display: inline-flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+
+    .description {
+        display: none;
+    }
+
+}
+
+@media (min-width: 769px) {
+    main section div.products article {
+        width: 22%;
+
+    }
+    main section article .description{
+        opacity: 0
+    }
+    main section article:hover .description{
+        opacity: 1;
+        transition: all 300ms;
+    }
+
+    main section article:hover .fa-truck{
+        transition: all 300ms;
+        transform: rotate(-90deg);
+    }
+    .description {
+        display: flex;
+    }
+
+    div.top-header {
+        display: inline-flex;
+        width: 100%;
+        align-items: center;
+        padding: 2px;
+        justify-content: space-between;
+
+    }
+
+    header div .logo {
+
+        display: inline-flex;
+        width: 25%;
+    }
+
+    div.main-article {
+        justify-content: center;
+    }
+
+    footer div {
+        display: inline-flex;
+        align-content: center;
+        flex-wrap: nowrap;
+        width: fit-content;
+    }
+
+
+    footer div section.copyright-message {
+        background-color: blue;
+        margin-left: 10px;
+        display: none;
+    }
+
+    footer h3 {
+
+        white-space: normal;
+        display: block;
+    }
+
+    section.copy {
+        align-items: flex-end;
+    }
+
+}
